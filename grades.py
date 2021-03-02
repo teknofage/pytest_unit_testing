@@ -55,3 +55,4 @@ def test_calculate_stat(grade_list, expected_mean, expected_sd):
     actual_mean, actual_sd = calculate_stat(grade_list)
     assert actual_mean == expected_mean
     assert actual_sd == expected_sd
+    
